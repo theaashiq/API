@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,600&family=Open+Sans&family=Playpen+Sans&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #f5ebe4;
+}
+
+header, footer{
+    background-color: #3B2667;
+    color: #81FFEF;
+    font-family: 'Open Sans', sans-serif
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    color:#3B2667
+}
+
+ul{
+    margin-left: 100px;
+}
+
+ul, li{
+    display: inline-block;
+}
+
+img{
+    width:50px
+}
+
+.comment-section{
+    top: 200px;
+    margin:20px 50px
+}
+
+.comment-box{
+    margin: 15px 0px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #a8cecf;
+    font-family: 'Open Sans', sans-serif
+}
+
+.username, .email{
+    font-weight: bold;
+}
+
+li{
+    padding: 15px;
+    marign: 0px 5px;
+    border-bottom: 4px solid  #3B2667;
+    /* border-buttom-radius: 5px; */
+}
+
+a {
+    text-decoration: none;
+    color: #81FFEF;
+    
+}
+
+li:hover{
+    border-color: #81FFEF;
+}
